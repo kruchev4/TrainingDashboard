@@ -1,7 +1,7 @@
 # MHE Certification Dashboard - setup
 
 ## Files (all in the same folder, index.html at the repo root)
-index.html, app.js, styles.css, config.js, .nojekyll  (SETUP.md and setup.sql are reference only)
+index.html, app.js, styles.css, config.js, .nojekyll  (the other files here are reference only)
 
 ## 1. Publish on GitHub Pages
 Upload the files so index.html is at the top of the repo.
@@ -31,3 +31,6 @@ Out of the box it runs in "Saved in this browser only" mode. Steps 2-3 turn on s
 - Free Supabase projects pause after about 7 days of no activity. Resume from the Supabase dashboard if that happens; data is kept.
 - The database holds employee names and IDs. Confirm with IT / HR that a hosted service is acceptable for that data.
 - Back up occasionally: Supabase > Table Editor > kv > export CSV.
+
+## Teams alerts (optional)
+See TEAMS_SETUP.md.
